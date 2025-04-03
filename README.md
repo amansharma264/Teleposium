@@ -129,3 +129,60 @@
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
+
+.contact-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.event-card p {
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.event-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.event-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.register-btn {
+    background: #ff0000;
+    color: white;
+    border: 2px solid #ff0000;
+}
+
+.register-btn:hover {
+    background: rgba(255, 0, 0, 0.2);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
+}
+
+.rules-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.rules-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
