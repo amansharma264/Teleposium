@@ -2,7 +2,7 @@
 
 
 
-<section id="prizes" class="section">
+id="prizes" class="section">
             <h2>Prizes & Rewards</h2>
             <div class="prizes-container">
                 <div class="prize-tier">
@@ -10,7 +10,7 @@
                     <p>₹50,000 + E-certificates</p>
                 </div> 
             </div>
-        </section>
+        
 
 .prizes-container {
     display: flex;
