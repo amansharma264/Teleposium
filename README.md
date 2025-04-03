@@ -545,6 +545,21 @@ footer {
     color: #2c3e50;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
 .general-contact i {
     color: #e63946;
     width: 20px;
